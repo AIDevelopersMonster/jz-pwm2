@@ -1,0 +1,4 @@
+JZ-PWM2 GitHub repository scaffold 0.1.0
+Generated: 2026-07-31
+Target account: AIDevelopersMonster
+Suggested repository: jz-pwm2

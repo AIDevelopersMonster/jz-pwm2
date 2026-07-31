@@ -1,0 +1,21 @@
+name: Ошибка документации
+about: Сообщить о неточности или неоднозначности
+title: "[DOC] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Файл или раздел
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что неверно или непонятно
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Источник или результат измерения

@@ -1,0 +1,31 @@
+name: Результаты проверки экземпляра
+about: Добавить измерения конкретной ревизии JZ-PWM2
+title: "[HW TEST] "
+labels: ["hardware-test"]
+body:
+  - type: input
+    id: marking
+    attributes:
+      label: Маркировка и ревизия платы
+    validations:
+      required: true
+  - type: input
+    id: purchase
+    attributes:
+      label: Продавец и дата покупки
+  - type: textarea
+    id: uart
+    attributes:
+      label: Уровни UART и фактические ответы
+    validations:
+      required: true
+  - type: textarea
+    id: pwm
+    attributes:
+      label: Результаты измерений PWM
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Фотографии, осциллограммы и файлы
